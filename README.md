@@ -26,3 +26,8 @@ HandleLidSwitch=ignore
 #LidSwitchIgnoreInhibited=yes
 </pre>
 
+Alternatively, try this to solve acpi issue with free drivers:s
+
+https://wiki.debian.org/Bumblebee#Installation
+
+sudo apt install bumblebee primus
