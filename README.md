@@ -10,10 +10,30 @@ GRUB_TERMINAL=console
 sudo update-grub
 reboot
 </pre>
-## wifi drivers
+
+## Drivers
+
+It should be as simple as:
+
+sudo ubuntu-drivers autoinstall
+
+Some issues with nvidia...
+...
+Configurando nvidia-340 (340.108-0ubuntu5.20.04.1) ...
+
+Building for 5.8.0-38-generic
+Building for architecture x86_64
+Building initial module for 5.8.0-38-generic
+This system doesn't support Secure Boot
+Secure Boot not enabled on this system.
+Done.
+
+
+
+### wifi drivers
 search for non-free ones to make it work
 
-## nvidia card driver
+### nvidia card driver
 * non-free nvidea was great until kernel 5.8, they discontinue the support and kernel fails at boot
 * noveau are the default option but has an dummy behaviour with acpi, suspend takes more than 5 or 10 minutes, most of the times you have to force a shutdown pusshing the button. So it is preferable ask for non suspend anytime neither when switch the lid. 
 To avoid suspend when lid, so ignore the lid switch:
