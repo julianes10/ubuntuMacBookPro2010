@@ -26,8 +26,27 @@ HandleLidSwitch=ignore
 #LidSwitchIgnoreInhibited=yes
 </pre>
 
-Alternatively, try this to solve acpi issue with free drivers:s
 
+Bumblebee is not helping neither
 https://wiki.debian.org/Bumblebee#Installation
 
 sudo apt install bumblebee primus
+
+
+<pre>
+omega@MacBookPro:~$ ubuntu-drivers devices
+== /sys/devices/pci0000:00/0000:00:17.0/0000:04:00.0 ==
+modalias : pci:v000010DEd000008A0sv0000106Bsd000000C2bc03sc00i00
+vendor   : NVIDIA Corporation
+model    : MCP89 [GeForce 320M]
+driver   : nvidia-340 - distro non-free recommended
+driver   : xserver-xorg-video-nouveau - distro free builtin
+
+== /sys/devices/pci0000:00/0000:00:15.0/0000:02:00.0 ==
+modalias : pci:v000014E4d0000432Bsv0000106Bsd0000008Dbc02sc80i00
+vendor   : Broadcom Inc. and subsidiaries
+model    : BCM4322 802.11a/b/g/n Wireless LAN Controller (AirPort Extreme)
+driver   : bcmwl-kernel-source - third-party free
+</pre>
+
+this combinaton is working ok but not suspending is a pain on the neck
