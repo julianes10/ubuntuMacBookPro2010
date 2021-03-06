@@ -86,4 +86,6 @@ magically it let nvidia manage your x
 Setup bright control
 https://askubuntu.com/questions/499938/brightness-buttons-on-macbook-pro-7-1
 
+https://elementaryos.stackexchange.com/questions/8566/cannot-change-brightness-with-nvidia-drivers-installed
+
 
