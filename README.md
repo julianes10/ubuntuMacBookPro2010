@@ -70,3 +70,13 @@ driver   : bcmwl-kernel-source - third-party free
 </pre>
 
 this combinaton is working ok but not suspending is a pain on the neck
+
+
+## trials in 18.04
+
+https://askubuntu.com/questions/1220175/how-do-i-get-the-grub-menu-to-show-on-a-macbook
+
+https://askubuntu.com/questions/264247/proprietary-nvidia-drivers-with-efi-on-mac-to-prevent-overheating/613573#613573
+
+
+
