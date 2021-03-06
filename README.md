@@ -73,10 +73,17 @@ this combinaton is working ok but not suspending is a pain on the neck
 
 
 ## trials in 18.04
-
+Setup grub with menu, remember 1st kernel failsafe allow a root shell
 https://askubuntu.com/questions/1220175/how-do-i-get-the-grub-menu-to-show-on-a-macbook
-
+Setup the trick in setpci
 https://askubuntu.com/questions/264247/proprietary-nvidia-drivers-with-efi-on-mac-to-prevent-overheating/613573#613573
+note not sure all works fine as one pci still show 0a value...
 
+Install driver:
+ubuntu-drivers install 
+magically it let nvidia manage your x
+
+Setup bright control
+https://askubuntu.com/questions/499938/brightness-buttons-on-macbook-pro-7-1
 
 
