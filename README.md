@@ -83,9 +83,13 @@ Install driver:
 ubuntu-drivers install 
 magically it let nvidia manage your x
 
-Setup bright control
+Setup bright control:
 https://askubuntu.com/questions/499938/brightness-buttons-on-macbook-pro-7-1
+Not working don't know why
 
-https://elementaryos.stackexchange.com/questions/8566/cannot-change-brightness-with-nvidia-drivers-installed
+https://elementaryos.stackexchange.com/questions/8566/cannot-change-brightness-with-nvidia-drivers-installed is working ok at least.
 
+sudo apt-mark hold linux-generic linux-image-generic linux-headers-generic
 
+## EPSON 
+http://download.ebz.epson.net/man/linux/iscan_e.html#sec7
